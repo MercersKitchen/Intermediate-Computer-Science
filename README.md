@@ -1,2 +1,10 @@
-# Intermediate-Computer-Science
+# Intermediate Computer Science
 https://github.com/MercersKitchen/Introductory-Computer-Science
+
+
+---
+
+# To Include
+
+
+---
