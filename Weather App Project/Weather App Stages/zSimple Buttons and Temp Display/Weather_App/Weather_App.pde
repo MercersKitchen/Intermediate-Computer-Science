@@ -16,7 +16,7 @@ void setup() {
   textDraw(title, titleFont, height, #2C08FF, CENTER, CENTER, titleX, titleY, titleRectWidth, titleRectHeight); //Title
   textDraw(quit, titleFont, height, #2C08FF, CENTER, CENTER, quitX, quitY, quitRectWidth, quitRectHeight); //Quit Button
   SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yyyy"); 
-  formatter = new SimpleDateFormat("E, dd MMM yyyy HH:mm:ss z");  
+  formatter = new SimpleDateFormat("E, dd MMM yyyy HH:mm:ss z"); //Check built in bug, try reordering the date elements
   String strDate = formatter.format(apiCurrentDateCall);
   textDraw(strDate, titleFont, height, #2C08FF, LEFT, CENTER, currentAPIX, currentAPIY, currentAPIRectWidth, currentAPIRectHeight); //Time Stamp
   textDraw(nameEdm, titleFont, height, #2C08FF, LEFT, CENTER, apiCallX1, apiCallY1, apiCallRectWidth1, apiCallRectHeight1); //Edmonton
