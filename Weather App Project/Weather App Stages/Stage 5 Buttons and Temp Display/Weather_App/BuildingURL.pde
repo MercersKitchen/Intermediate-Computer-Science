@@ -24,7 +24,7 @@ void buildingURL() {
   String edmontonId = "id=5946768";
   String calgaryId = "id=5913490";
   String redDeerId = "id=6118158";
-  String apiKey = "APPID=06ee4dfaf9a7c9bdf9024604eda99160"; //API Key is PRIVATE so not included here
+  String apiKey = "APPID="; //API Key is PRIVATE so not included here
   String mode = "mode=json";
   String unitMetric = "units=metric";
   String and = "&";
