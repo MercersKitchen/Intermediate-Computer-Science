@@ -1,0 +1,3 @@
+To Do List
+- When do I know I won, feedback to Canvas not console? Code goes in Void Draw but could be written
+  into a procedure

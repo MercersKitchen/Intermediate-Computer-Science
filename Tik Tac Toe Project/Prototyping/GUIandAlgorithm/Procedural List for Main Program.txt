@@ -1,0 +1,35 @@
+List of Procedures and Behaviour
+Remember: references must be in order
+Caution: Global Variables grouped into TABs must be listed at the beginning
+Note: TABs organize blocks of code for reference in MAIN Program or Sub Programs
+
+Purpose of Handout
+- Choose which procedures go in which MAIN Program parts, listed below
+
+MAIN Program Parts
+//Global Variables
+void setup()
+void draw()
+void mouseClicked()
+
+Rest of Procedures, Linear Order of TABs in Program
+
+Name					Behaviour
+
+void autoText()				Self-sizing Text, uses textCalculator() for >13 characters or IF for <
+float textCalculator()
+
+void GUI_Design()			Layout all rect() of divisions on GUI, used for text, images, etc.
+
+void quitButtonSetup()			All Quit Button Code, exit() program
+void quitButtonDraw()
+void quitButtonMouseClicked()
+
+void textSetup()			Text that does not change
+void textDraw()				Text the does change
+void xoText()				Draws X & O in board, populates array so computer "sees" board
+xoButtonDrawMouseClicked()		Listener for Booleans to draw X&O's through xoText() & textDraw()
+void check3InRowDraw()			Uses Trigger of count>5 to activate Algorithm
+void onlyX()				Splits board so computer sees only X
+void onlyO()				Splits board so computer sees only O
+Boolean checkNestedFOR			Checks for 3 in a Row

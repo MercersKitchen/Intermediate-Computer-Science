@@ -1,0 +1,7 @@
+This program seems broken
+
+Bug
+- textWidth() works
+- textSize() will be small enough to show letters
+  smaller than the rectHeight
+- but word will be too long to show all the letters

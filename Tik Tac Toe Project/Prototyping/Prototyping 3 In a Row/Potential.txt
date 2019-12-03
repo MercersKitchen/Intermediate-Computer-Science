@@ -1,0 +1,18 @@
+Middle	First	Last	Verify	3 in a row	Notes	
+1	0	2	2	Yes		
+3	0	6	6	Yes		
+4	0	8	8	Yes		
+5	0	10		No		out of bounds	
+7	0	14		No		out of bounds	
+						
+1	1	1		No		too low	"not a 6, 7, 8"
+3	1	5		No		too low	"not a 6, 7, 9"
+4	1	7	7	yes		
+5	1	9		no		out of bounds	
+7	1	13		no		out of bounds	
+							
+1	2	0	0	yes		"ok, but backwards"	
+3	2	4		no		too low	"not a 6, 7, 8"
+4	2	6	6	yes		
+5	2	8	8	yes		
+7	2	12		no		out of bounds	
