@@ -1,0 +1,43 @@
+
+Tic Tac Toe
+- Double Threats from
+  Three in a row
+  "Random" Selection
+
+Example Double Threats (board is numbered 1-9)
+**WHat are variations of this**
+- 1, 2, 4
+- 1, 2, 5
+- 1, 2, 7
+- 1, 2, 8
+- 1, 3, 5 (Triangle)
+- 1, 3, 7 (3 courners)
+
+Starting and Response Moves (X first, 0 second)
+- Center, Courner: result might always be CATS
+  Most common start, most common responce
+- Corner, ajacent or opposite courner: play any courner will win
+- Center, Immediate be- Side: result can be double threat (2 separate?)
+  3rd Must be corner - forces a "3 in a row"
+  4th can be corner or side
+- Corner, Opposite middle side: result is a double threat if X plays middle
+- Side, ajacent side or opposite courner:
+  Response is center for double threat
+  Next Response is Courner
+
+Games that alwaus win (shapes
+- X: 1, 5; O: 1 or 4
+
+
+Google Tic Tac Toe
+
+Impossible Mode, no double threats will happen
+- If center not taken, take center
+- If center taken, take corner
+- Then prevent or go for three in a row
+
+Algorithms of Medium Mode
+- If center, take side
+- If corner, take corner
+- If side, take side
+
