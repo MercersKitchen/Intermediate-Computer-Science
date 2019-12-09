@@ -4,7 +4,7 @@ void twoPlayerBoolean() {
   if (twoPlayer2 == false && mouseX >= scoreA  && mouseX <= impossibleY+scoreWidth && mouseY >= impossibleY && mouseY <= impossibleY+impossibleHeight) {
     twoPlayer2 = true;
     twoPlayerAI = false;
-  } else {
+  } else if (twoPlayerAI == false && mouseX >= scoreA  && mouseX <= impossibleY+scoreWidth && mouseY >= impossibleY && mouseY <= impossibleY+impossibleHeight) {
     twoPlayer2 = false;
     twoPlayerAI = true;
   }
