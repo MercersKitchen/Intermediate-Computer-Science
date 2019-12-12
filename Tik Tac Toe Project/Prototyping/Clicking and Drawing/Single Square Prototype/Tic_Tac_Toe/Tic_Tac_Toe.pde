@@ -18,7 +18,9 @@ void draw() {
   quitButtonDraw();
   if (start == true) {
     twoPlayerGame();
-    twoPlayerKey();
+    if (twoPlayer2 == true && twoPlayerAI == false) {
+      twoPlayerKey();
+    }
   }
 }
 
@@ -32,8 +34,8 @@ void mousePressed() {
   }
   if (start == true) {
     twoPlayerBoolean();
-  clickXO();
   }
-
-  
+  if (start = true && twoPlayer2 == true || twoPlayerAI == true) {
+    clickXO();
+  }
 }

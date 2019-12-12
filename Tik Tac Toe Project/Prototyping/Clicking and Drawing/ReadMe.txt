@@ -1,5 +1,6 @@
 
 What is added
+- Start Boolean to lock out some features (Main Program)
 - Two_Player / play2player()
 - Two_Player / twoPlayerKey()
 - ClickDrawXO / clickXO(): added array, read depending on click
@@ -11,6 +12,5 @@ What is added
   For Reading Arrays
   For Populating Variables, especially at reset
 
-
-
-
+Changed for Multiple Squares
+- Changed spaceX & spaceY to arrays
