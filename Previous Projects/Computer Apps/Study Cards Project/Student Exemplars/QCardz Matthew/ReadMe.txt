@@ -1,0 +1,1 @@
+Example of ScreenSize Checker or ratios not working well

@@ -1,0 +1,19 @@
+{
+  "/2#": {"text": "Condesnation"},
+  "/1#": {"text": "Transportation"},
+  "/11#": {"text": "Percolation"},
+  "/10#": {"text": "Infiltration"},
+  "/13#": {"text": "Snowmelt Runoff"},
+  "/12#": {"text": "Surface Flow 2"},
+  "/15#": {"text": "Condensation 2"},
+  "/14#": {"text": "Transportation 2"},
+  "/Your name": {"text": "Khaled"},
+  "/9#": {"text": "Groundwater Flow"},
+  "/16#": {"text": "Evaporation 2"},
+  "/8#": {"text": "Plant Uptake"},
+  "/7#": {"text": "Surface Flow"},
+  "/6#": {"text": "Transpiration"},
+  "/5#": {"text": "Sublimation"},
+  "/4#": {"text": "Percipitation"},
+  "/3#": {"text": "Evaporation"}
+}
