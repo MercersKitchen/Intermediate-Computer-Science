@@ -1,4 +1,6 @@
 
+Websites example: Super Tic Tac Toe as JavaScript Version
+
 Case Studies
 - Tic Tac Toe (2-player & 1-player)
 - Weather App
